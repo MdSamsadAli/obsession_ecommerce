@@ -1,0 +1,120 @@
+.logo {
+  width: 136px;
+}
+
+.items_count {
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.items_count span {
+  font-size: small;
+}
+
+.addtocart button {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-width: 0;
+  border-radius: 0;
+  background-color: #f05a66;
+  color: #fff;
+}
+
+.slick-next {
+  right: 0 !important;
+}
+.slick-prev {
+  left: 0 !important;
+  z-index: 1;
+}
+.slick-next,
+.slick-prev {
+  color: #000 !important;
+  background-color: #fff !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  border-radius: 100%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.products .slick-prev {
+  left: -15px !important;
+}
+
+.products .slick-next,
+.products .slick-prev {
+  background-color: #011749 !important;
+  color: #fff !important;
+}
+
+.image-container .hidden {
+  transition: display 0.5s ease;
+}
+.image-container:hover .hidden {
+  display: block;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 111;
+}
+.modal-content {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+.modal-open {
+  overflow: hidden;
+}
+
+.category-img-wrapper {
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 13px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flash_sale_img {
+  height: 255px;
+  display: flex;
+  justify-content: center;
+}
+
+.flash_sale_img img {
+  height: 100%;
+  object-fit: cover;
+  width: auto;
+}
+.arrows {
+  background-color: #011749;
+  border-radius: 100%;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.transform-skew {
+  transform: skew(40deg, 0deg);
+}
